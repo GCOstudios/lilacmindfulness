@@ -1,1 +1,3 @@
-# lilacmindfulness
+# Lilac Mindfulness
+
+Custom WordPress theme
