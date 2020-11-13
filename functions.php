@@ -137,6 +137,14 @@ function lilac_mind_widgets_init() {
 add_action( 'widgets_init', 'lilac_mind_widgets_init' );
 
 /**
+ * Enqueue Google Fonts
+ */
+function google_fonts() {
+  wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Mulish&family=Sora&display=swap', false );
+}
+add_action( 'wp_enqueue_scripts', 'google_fonts' );
+
+/**
  * Enqueue scripts and styles.
  */
 function lilac_mind_scripts() {
